@@ -23,6 +23,7 @@
     font-weight: 400;
     font-size: 20px;
     color: var(--color-light-black);
+    max-width: 670px;
 }
 
 .btn-hero {
