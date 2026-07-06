@@ -1,0 +1,37 @@
+.footer {
+    padding: 95px 0 144px;
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+
+.footer__nav {}
+
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px
+}
+
+.footer__nav-item {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer__nav-link {}
+
+.footer__title {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 67px;
+}
+
+@media (max-width: 480px) {
+    .footer__title {
+        font-size: 34px;
+    }
+
+    .footer__nav-item {
+        font-weight: 600;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,80 @@
+.person-card {
+    position: absolute;
+    top: 350px;
+    left: 5px;
+    width: 300px;
+    height: 290px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .3);
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+    color: var(--color-black);
+}
+
+.person-card__titile {
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+}
+
+.person-card__titile::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: 0;
+    height: 1px;
+    width: 110px;
+    background-color: var(--color-black);
+}
+
+.person-card__preview {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.person-card__image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: -30px -10px;
+}
+
+.product-card__name {
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.person-card__descr {
+
+}
+
+.person-card__subtitle {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.person-card__list {
+    list-style: disc;
+    margin: 15px 0 0 15px;
+}
+
+.person-card__list-item {
+    font-weight: 400;
+    font-size: 10px;
+    margin: 15px 0 0 0;
+}
+
+@media (max-width: 1400px) {
+    .person-card {
+        display: none;
+    }
+}
